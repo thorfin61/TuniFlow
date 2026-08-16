@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Analytics.css";
+import "./analytics.css";
 
 const governorates = [
   ["tunis", "Tunis"],
