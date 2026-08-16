@@ -10,8 +10,7 @@
   import "./App.css";
 
   import Analytics from "./analytics";
-  import Predictions from "./Prediction";
-
+import Predictions from "./prediction";
   const governorates = {
     tunis: {
       name: "Tunis",
