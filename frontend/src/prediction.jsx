@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Prediction.css";
+import "./prediction.css";
 
 const governorates = [
   ["tunis", "Tunis"],
