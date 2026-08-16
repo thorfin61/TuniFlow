@@ -38,9 +38,7 @@ function Predictions() {
     setLoading(true);
 
     Promise.all([
-      fetch(
-        `http://127.0.0.1:8000/prediction/${selected}`
-      ).then((response) => {
+      fetch("https://tuniflow-gi60.onrender.com/roads/tunis").then((response) => {
         if (!response.ok) {
           throw new Error("Prediction request failed");
         }

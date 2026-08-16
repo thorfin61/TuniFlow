@@ -10,7 +10,7 @@
   import "./App.css";
 
   import Analytics from "./analytics";
-import Predictions from "./prediction";
+  import Predictions from "./prediction";
   const governorates = {
     tunis: {
       name: "Tunis",
@@ -179,9 +179,7 @@ import Predictions from "./prediction";
 
       setRoads([]);
 
-      fetch(
-        `http://127.0.0.1:8000/roads/${governorate}`
-      )
+      fetch("https://tuniflow-gi60.onrender.com/roads/tunis")
         .then((response) => {
           if (!response.ok) {
             throw new Error(
