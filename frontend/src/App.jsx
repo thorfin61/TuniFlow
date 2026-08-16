@@ -208,7 +208,7 @@
       setTraffic(null);
 
       fetch(
-        `http://127.0.0.1:8000/traffic/${governorate}`
+        `https://tuniflow-gi60.onrender.com/traffic/${governorate}`
       )
         .then((response) => {
           if (!response.ok) {

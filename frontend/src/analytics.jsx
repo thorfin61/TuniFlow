@@ -39,11 +39,11 @@ function Analytics() {
 
     Promise.all([
       fetch(
-        `http://127.0.0.1:8000/traffic/${selected}`
+        `https://tuniflow-gi60.onrender.com/traffic/${selected}`
       ).then((res) => res.json()),
 
       fetch(
-        `http://127.0.0.1:8000/traffic-history/${selected}`
+        `https://tuniflow-gi60.onrender.com/traffic-history/${selected}`
       ).then((res) => res.json()),
     ])
       .then(([trafficData, historyData]) => {

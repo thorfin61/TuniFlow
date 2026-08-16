@@ -47,7 +47,7 @@ function Predictions() {
       }),
 
       fetch(
-        `http://127.0.0.1:8000/traffic-history/${selected}`
+        `https://tuniflow-gi60.onrender.com/traffic-history/${selected}`
       ).then((response) => {
         if (!response.ok) {
           throw new Error("History request failed");
